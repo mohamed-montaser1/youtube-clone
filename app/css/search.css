@@ -1,0 +1,60 @@
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+#search-fliters-icon {
+  cursor: pointer;
+}
+
+.search-header .filter-column {
+  display: none;
+}
+
+input:checked + span {
+  color: #bf40bf;
+}
+
+.card-horizontal div .rounded {
+  cursor: pointer;
+}
+
+.card-horizontal .card .card-body p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card-horizontal .card .card-body {
+  min-width: 0;
+}
+
+.card .card-icons {
+  position: relative;
+}
+.card .fa-play {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  color: #23131c;
+}
+@media (max-width: 342px) {
+  .modal-footer-submit {
+    display: block;
+    width: 100%;
+    margin: 1rem 0.2rem;
+  }
+}
+@media (max-width: 767px) {
+  .rounded {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .card .card-horizontal .card-body .channel-img {
+    display: block;
+    margin-top: 10px;
+  }
+}
